@@ -27,7 +27,7 @@ async function bootstrap() {
     }) 
   );
 
-  
+  console.log('AuthMS- Testing log')
   await app.listen();
   logger.log(`Auth Microservice is running on ${envs.port}`);
 }
